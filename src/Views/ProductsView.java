@@ -106,6 +106,7 @@ public class ProductsView extends javax.swing.JInternalFrame {
         jLabel1.setFont(new java.awt.Font("Segoe UI", 1, 32)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(0, 153, 0));
         jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Views/icons/icons8_package_60px_1.png"))); // NOI18N
         jLabel1.setText("LIST PRODUCTS");
 
         txtSearch.setBackground(new java.awt.Color(255, 255, 255));
@@ -125,7 +126,7 @@ public class ProductsView extends javax.swing.JInternalFrame {
             .addGroup(jPanel2Layout.createSequentialGroup()
                 .addContainerGap()
                 .addComponent(jLabel1)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 368, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 304, Short.MAX_VALUE)
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                     .addGroup(jPanel2Layout.createSequentialGroup()
                         .addComponent(jLabel10)
@@ -200,27 +201,33 @@ public class ProductsView extends javax.swing.JInternalFrame {
         jSeparator5.setBackground(new java.awt.Color(35, 166, 97));
         jSeparator5.setForeground(new java.awt.Color(35, 166, 97));
 
-        btnAdd.setBackground(new java.awt.Color(35, 166, 89));
+        btnAdd.setBackground(new java.awt.Color(255, 255, 255));
         btnAdd.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        btnAdd.setForeground(new java.awt.Color(255, 255, 255));
+        btnAdd.setForeground(new java.awt.Color(35, 166, 89));
+        btnAdd.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Views/icons/icons8_add_40px.png"))); // NOI18N
         btnAdd.setText("ADD");
         btnAdd.setBorder(null);
+        btnAdd.setBorderPainted(false);
         btnAdd.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         btnAdd.setOpaque(true);
         btnAdd.setPreferredSize(new java.awt.Dimension(42, 56));
 
-        btnEdit.setBackground(new java.awt.Color(35, 166, 89));
+        btnEdit.setBackground(new java.awt.Color(255, 255, 255));
         btnEdit.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        btnEdit.setForeground(new java.awt.Color(255, 255, 255));
+        btnEdit.setForeground(new java.awt.Color(35, 166, 89));
+        btnEdit.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Views/icons/icons8_edit_40px.png"))); // NOI18N
         btnEdit.setText("EDIT");
         btnEdit.setBorder(null);
+        btnEdit.setBorderPainted(false);
         btnEdit.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
 
-        btnDelete.setBackground(new java.awt.Color(35, 166, 89));
+        btnDelete.setBackground(new java.awt.Color(255, 255, 255));
         btnDelete.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        btnDelete.setForeground(new java.awt.Color(255, 255, 255));
+        btnDelete.setForeground(new java.awt.Color(35, 166, 89));
+        btnDelete.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Views/icons/icons8_delete_40px.png"))); // NOI18N
         btnDelete.setText("DELETE");
         btnDelete.setBorder(null);
+        btnDelete.setBorderPainted(false);
         btnDelete.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
 
         javax.swing.GroupLayout jPanel3Layout = new javax.swing.GroupLayout(jPanel3);
@@ -246,12 +253,11 @@ public class ProductsView extends javax.swing.JInternalFrame {
                     .addComponent(txtQuantity, javax.swing.GroupLayout.PREFERRED_SIZE, 200, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jSeparator5, javax.swing.GroupLayout.PREFERRED_SIZE, 200, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 263, Short.MAX_VALUE)
-                .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(btnDelete, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
-                        .addComponent(btnAdd, javax.swing.GroupLayout.DEFAULT_SIZE, 100, Short.MAX_VALUE)
-                        .addComponent(btnEdit, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
-                .addGap(30, 30, 30))
+                .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                    .addComponent(btnAdd, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(btnEdit, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(btnDelete, javax.swing.GroupLayout.DEFAULT_SIZE, 110, Short.MAX_VALUE))
+                .addGap(20, 20, 20))
         );
         jPanel3Layout.setVerticalGroup(
             jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)

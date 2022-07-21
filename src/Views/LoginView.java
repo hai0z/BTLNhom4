@@ -153,6 +153,7 @@ public class LoginView extends javax.swing.JFrame {
         btnLogin.setForeground(new java.awt.Color(35, 166, 89));
         btnLogin.setText("LOGIN");
         btnLogin.setBorder(null);
+        btnLogin.setOpaque(true);
 
         javax.swing.GroupLayout jPanel3Layout = new javax.swing.GroupLayout(jPanel3);
         jPanel3.setLayout(jPanel3Layout);
